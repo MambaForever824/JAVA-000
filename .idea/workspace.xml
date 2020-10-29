@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="09f0e9bf-03d9-4996-bb51-e3df6e442f54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework01/GCLogAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework01/GC出现OOM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM-CMS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM-G1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM-GC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM-ParNew-SerialOld.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM-Serial-SerialOld.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM-并发.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM-并行.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM垃圾收集器总结.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/不同GC总结" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework06/HttpClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework06/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Library/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/Library/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1j8yIpZAe8ufcq4NhDFTv6Bgt7D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04" />
+      <recent name="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework01" />
+      <recent name="$PROJECT_DIR$/Week_01/com/geekuniversity/java/week01" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework01" />
+      <recent name="$PROJECT_DIR$/Week_01/com/geekuniversity/java/week01/homework03" />
+      <recent name="$PROJECT_DIR$/Week_01/com/geekuniversity/java/week01/homework02" />
+      <recent name="$PROJECT_DIR$/Week_01/com/geekuniversity/java/week01/homework01" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekuniversity.java.week01.homework02.HelloClassLoader" />
+      <module name="JAVA-000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekuniversity.java.week01.homework02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloClassLoader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09f0e9bf-03d9-4996-bb51-e3df6e442f54" name="Default Changelist" comment="" />
+      <created>1603199935370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603199935370</updated>
+      <workItem from="1603199936456" duration="5543000" />
+      <workItem from="1603281432418" duration="904000" />
+      <workItem from="1603291353011" duration="193000" />
+      <workItem from="1603461334139" duration="1878000" />
+      <workItem from="1603534849942" duration="643000" />
+      <workItem from="1603718380924" duration="829000" />
+      <workItem from="1603817872530" duration="5742000" />
+      <workItem from="1603982664123" duration="254000" />
+      <workItem from="1603982941811" duration="99000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="97" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603203736306">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="97" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1603203736306" />
+    <state x="360" y="242" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603948240404">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="360" y="242" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1603948240404" />
+    <state x="486" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1603200960871">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="486" y="94" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1603200960871" />
+    <state x="397" y="303" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603890634758">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="303" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1603890634758" />
+    <state width="1385" height="356" key="GridCell.Tab.0.bottom" timestamp="1603207435630">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1385" height="356" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603207435630" />
+    <state width="1385" height="356" key="GridCell.Tab.0.center" timestamp="1603207435628">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1385" height="356" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603207435628" />
+    <state width="1385" height="356" key="GridCell.Tab.0.left" timestamp="1603207435627">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1385" height="356" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603207435627" />
+    <state width="1385" height="356" key="GridCell.Tab.0.right" timestamp="1603207435629">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1385" height="356" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603207435629" />
+    <state x="71" y="23" width="1264" height="877" key="SettingsEditor" timestamp="1603983002642">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="71" y="23" width="1264" height="877" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603983002642" />
+    <state x="602" y="0" width="838" height="1060" key="search.everywhere.popup" timestamp="1603891630225">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="602" y="0" width="838" height="1060" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603891630225" />
+    <state x="602" y="0" width="838" height="1060" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1603538404803" />
+  </component>
+</project>

@@ -1,0 +1,67 @@
+1、关于Stop The World(STW)
+在GC进行时必须【停顿所有Java执行线程（用户线程）】，此时服务几乎处于停止状态；
+为什么要停止所有线程？
+因为要确保一致性，在整个分析期间，执行系统看起来像被冻结在某个时间点上，不可以出现分析过程中，对象引用关系不断变化的情况，如果不满足，分析结果正确性无法得到保证。
+所以标记是GC过程中耗时最长的。
+选择合适的GC的标准：对于STW时间长度的容忍
+
+2、关于Serial GC
+控制参数: -XX:+UseSerialGC，虚拟机在【Client】模式下，使用 Serial + Serial Old的收集器组合进行内存回收；
+收集算法: 复制(Copying)
+回收区域: 新生代
+串行/并行/并发: 串行，单线程，一个CPU或一个线程完成
+Stop The Wold: 进行垃圾收集时，暂停其他所有的工作线程，直到收集结束。
+Client/Server: Client
+优缺点:简单而高效（对于单个CPU来说）
+
+3、ParNew
+控制参数: -XX:+UseParNewGC，使用 ParNew + Serial Old 进行内存回收，并且【强制指定】新生代使用 ParNew 进行内存回收；     -XX:ParallelGCThreads，限制垃圾收集的线程数；
+收集算法: 复制（Copying）
+回收区域: 新生代
+串行/并行/并发: 并行，Serial的多线程版本
+Stop The Wold: 是，进行垃圾收集时，暂停其他所有的工作线程，直到收集结束。
+Client/Server: Server模式
+一般与 CMS 一起使用
+垃圾收集时要暂停所有用户线程
+
+4、Parallel Scavenge
+控制参数：-XX:+UseParallelGC，虚拟机在【Server】模式下，使用 Parrallel Scavenge + Serial Old 进行内存回收；     -XX: MaxGCPauseMills，控制最大垃圾收集停顿时间；     -XX: GCTimeRatio: 直接设置吞吐量大小；
+收集算法：复制
+回收区域：新生代
+串行/并行/并发：并行
+Stop The Wold：是
+Client/Server：Server模式
+其他特性：适合后台运算任务，称为【吞吐量优先】收集器；达到一个可控制的吞吐量，吞吐量 = 用户运行代码时间 /（用户运行代码时间 + 垃圾收集时间）
+
+5、CMS（Concurrent Mark Sweep）
+控制参数: -XX:+UseConcMarkSweepGC，【默认关闭】，使用 ParNew + CMS + Serial Old 的收集器组合进行内存回收。如果CMS收集器出现【Current Mode Failure】，则Serial Old收集器将作为后备收集器；     -XX:CMSFullGCsBeforeCompaction=0 ， 默认值为0（表示每次进入FullGC时进行碎片整理）， 设置CMS收集器在【进行若干次垃圾收集后】在启动一次内存碎片整理； 仅在【使用CMS收集器时】生效；每次进入FullGC都进行碎片整理；在压缩前有过几次FullGC；     -XX:+UseCMSCompactAtFullCollection ，【默认开启】；FullGC时，对老年代进行压缩；因为CMS是【标记-清除】，不会整理内存，容易产生碎片；导致连续可用内存空间不足，此时内存压缩就会被启用；CMS收集器顶不住要进行FullGC时，开启内存碎片的合并整理过程，内存整理过程无法并发， 空间碎片问题没有，但是【停顿时间】变长；     -XX:CMSInitiatingOccupancyFraction，CMS不是等到老年代完全填满再进行收集，需要一部分预留空间，该值调高可以降低内存回收次数，从而提高性能；用百分比表示；
+收集算法: 标记-清除（Mark-Sweep）
+回收区域: 老年代
+串行/并行/并发: 并发，与用户线程一起进行并发标记
+Stop The Wold: 不完全是，在【初始标记】和【重新标记】阶段需要；
+Client/Server: Server
+其他特性:
+(1) 获取【最短回收停顿时间】；
+(2) 适用于【重试服务器响应速度，系统停顿时间短】的应用；
+优点:
+(1) 并发收集、低停顿；
+(2) 真正的并发收集；
+缺点:
+1、【浮动垃圾（Floating Garbage）】问题，因为是并发清理，在这个阶段产生的新垃圾无法清除，CMS不能等到【老年代几乎填满】再进行收集，需要预留一部分空间提供并发收集的程序；
+2、【空间碎片】问题；上面提到的【-XX:+UseCMSCompactAtFullCollection】参数，带来的问题就是【因为内存整理无法并发执行】，虽然解决了空间碎片问题，但【停顿时间不等不变长】；
+
+6、G1
+控制参数：
+-XX:+UseG1GC，表示使用G1收集器；
+-XX:+MaxGCPauseMillis，最大GC暂停时间；
+-XX:+GCPauseIntervalMillis，可能发生暂停的时间段的长度；
+收集算法：【标记-整理】+【复制】
+负责区域：新生代 和 老年代
+串行/并行/并发：并发
+Stop The Wold：是，很短
+Client/Server：Server
+特性：
+1、与用户线程【并发】执行，更短的Stop The World时间；
+2、分代收集策略；
+3、减少内存空间碎片，基于【标记-整理】+【复制】；
+4、可以预测停顿时间；有计划地避免在整个Java堆中进行全区域垃圾收集

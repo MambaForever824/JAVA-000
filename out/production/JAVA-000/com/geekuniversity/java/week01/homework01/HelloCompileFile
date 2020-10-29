@@ -1,0 +1,164 @@
+Classfile /Users/arthur/code/GeekUniversity/JAVA-000/Week_01/com/geekuniversity/java/week01/Hello.class
+  Last modified 2020-10-20; size 760 bytes
+  MD5 checksum 84701b6db257abcd127f45652d589361
+  Compiled from "Hello.java"
+public class com.geekuniversity.java.week01.Hello
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #6.#22         // java/lang/Object."<init>":()V
+   #2 = Class              #23            // java/lang/IllegalArgumentException
+   #3 = String             #24            // divisor cannot be 0
+   #4 = Methodref          #2.#25         // java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+   #5 = Class              #26            // com/geekuniversity/java/week01/Hello
+   #6 = Class              #27            // java/lang/Object
+   #7 = Utf8               <init>
+   #8 = Utf8               ()V
+   #9 = Utf8               Code
+  #10 = Utf8               LineNumberTable
+  #11 = Utf8               add
+  #12 = Utf8               (II)I
+  #13 = Utf8               subtract
+  #14 = Utf8               multiple
+  #15 = Utf8               divide
+  #16 = Utf8               StackMapTable
+  #17 = Utf8               ifMethod
+  #18 = Utf8               forLoop
+  #19 = Utf8               (I)V
+  #20 = Utf8               SourceFile
+  #21 = Utf8               Hello.java
+  #22 = NameAndType        #7:#8          // "<init>":()V
+  #23 = Utf8               java/lang/IllegalArgumentException
+  #24 = Utf8               divisor cannot be 0
+  #25 = NameAndType        #7:#28         // "<init>":(Ljava/lang/String;)V
+  #26 = Utf8               com/geekuniversity/java/week01/Hello
+  #27 = Utf8               java/lang/Object
+  #28 = Utf8               (Ljava/lang/String;)V
+{
+  public com.geekuniversity.java.week01.Hello();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 6: 0
+
+  public int add(int, int);
+    descriptor: (II)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=3
+         0: iload_1
+         1: iload_2
+         2: iadd
+         3: ireturn
+      LineNumberTable:
+        line 9: 0
+
+  public int subtract(int, int);
+    descriptor: (II)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=3
+         0: iload_1
+         1: iload_2
+         2: isub
+         3: ireturn
+      LineNumberTable:
+        line 13: 0
+
+  public int multiple(int, int);
+    descriptor: (II)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=3
+         0: iload_1
+         1: iload_2
+         2: imul
+         3: ireturn
+      LineNumberTable:
+        line 17: 0
+
+  public int divide(int, int);
+    descriptor: (II)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=3, args_size=3
+         0: iload_2
+         1: ifne          14
+         4: new           #2                  // class java/lang/IllegalArgumentException
+         7: dup
+         8: ldc           #3                  // String divisor cannot be 0
+        10: invokespecial #4                  // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+        13: athrow
+        14: iload_1
+        15: iload_2
+        16: isub
+        17: ireturn
+      LineNumberTable:
+        line 21: 0
+        line 22: 4
+        line 24: 14
+      StackMapTable: number_of_entries = 1
+        frame_type = 14 /* same */
+
+  public int ifMethod(int, int);
+    descriptor: (II)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=3
+         0: iload_1
+         1: iload_2
+         2: if_icmple     9
+         5: iload_1
+         6: iload_2
+         7: isub
+         8: ireturn
+         9: iload_2
+        10: iload_1
+        11: isub
+        12: ireturn
+      LineNumberTable:
+        line 28: 0
+        line 29: 5
+        line 31: 9
+      StackMapTable: number_of_entries = 1
+        frame_type = 9 /* same */
+
+  public void forLoop(int);
+    descriptor: (I)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=4, args_size=2
+         0: iconst_0
+         1: istore_2
+         2: iconst_0
+         3: istore_3
+         4: iload_3
+         5: iload_1
+         6: if_icmpge     19
+         9: iload_2
+        10: iload_3
+        11: iadd
+        12: istore_2
+        13: iinc          3, 1
+        16: goto          4
+        19: return
+      LineNumberTable:
+        line 35: 0
+        line 36: 2
+        line 37: 9
+        line 36: 13
+        line 39: 19
+      StackMapTable: number_of_entries = 2
+        frame_type = 253 /* append */
+          offset_delta = 4
+          locals = [ int, int ]
+        frame_type = 250 /* chop */
+          offset_delta = 14
+}
+SourceFile: "Hello.java"

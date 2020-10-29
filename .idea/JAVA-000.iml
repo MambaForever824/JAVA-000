@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Week_01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_02" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_03" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_04" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_05" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_06" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_09" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_13" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_15" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="httpclient-4.5.12" level="project" />
+    <orderEntry type="library" name="httpcore-4.4.13" level="project" />
+  </component>
+</module>

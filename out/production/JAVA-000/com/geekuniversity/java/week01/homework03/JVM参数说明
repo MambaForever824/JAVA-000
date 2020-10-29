@@ -1,0 +1,8 @@
+-Xmx: 【堆】最大内存大小
+-Xms: 初始化堆内存大小，建议与-Xmx保持一致，防止堆扩容
+-Xmn: 新生代（年轻代）内存大小
+-Xss: 定义一个【栈内存容量】，默认值是1024KB
+-XX:NewRatio，新生代与老年代内存比例，默认值为2
+-XX:SurviorRatio，新生代中 Eden 区 与 一个 Survior区的比例，默认值为8
+-XX:MetaspaceSize，Java8之后元数据区大小
+-XX:MaxMetaspaceSize，Java8后最大元数据区值
