@@ -20,20 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f0e9bf-03d9-4996-bb51-e3df6e442f54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework01/GCLogAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework01/GC出现OOM.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM-CMS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM-G1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM-GC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM-ParNew-SerialOld.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM-Serial-SerialOld.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM-并发.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM-并行.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/JVM垃圾收集器总结.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04/不同GC总结" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework06/HttpClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework06/HttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_04/com/geekuniversity/java/week04/Homework02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -111,6 +99,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.HelloClassLoader" />
@@ -133,7 +132,13 @@
       <workItem from="1603718380924" duration="829000" />
       <workItem from="1603817872530" duration="5742000" />
       <workItem from="1603982664123" duration="254000" />
-      <workItem from="1603982941811" duration="99000" />
+      <workItem from="1603982941811" duration="432000" />
+      <workItem from="1604129090605" duration="54000" />
+      <workItem from="1604129160753" duration="133000" />
+      <workItem from="1604129313626" duration="89000" />
+      <workItem from="1604129593533" duration="5000" />
+      <workItem from="1604134157443" duration="153000" />
+      <workItem from="1605056073046" duration="614000" />
     </task>
     <servers />
   </component>
