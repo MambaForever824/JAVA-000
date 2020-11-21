@@ -10,8 +10,6 @@
                         http://www.springframework.org/schema/aop
                         https://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <context:component-scan base-package="com.geekuniversity.java.week05.homework02.annotation" />
-
     <bean id="student123"
           class="com.geekuniversity.java.week05.homework02.config.Student">
         <property name="id" value="123" />
