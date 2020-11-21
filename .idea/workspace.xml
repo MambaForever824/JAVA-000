@@ -1,71 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f0e9bf-03d9-4996-bb51-e3df6e442f54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/src/main/java/com/geekuniversity/java/week05/homework01/AopProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/src/main/java/com/geekuniversity/java/week05/homework01/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/src/main/java/com/geekuniversity/java/week05/homework01/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/src/main/java/com/geekuniversity/java/week05/homework01/HelloServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/src/main/java/com/geekuniversity/java/week05/homework02/SpringBeanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/src/main/java/com/geekuniversity/java/week05/homework02/annotation/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/src/main/java/com/geekuniversity/java/week05/homework02/annotation/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/src/main/java/com/geekuniversity/java/week05/homework02/config/Klass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/src/main/java/com/geekuniversity/java/week05/homework02/config/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/target/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/target/classes/com/geekuniversity/java/week05/homework02/config/Klass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/target/classes/com/geekuniversity/java/week05/homework02/config/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/spring/target/spring-1.0.0.jar" afterDir="false" />
+    <list default="true" id="bec9cbe5-b517-452c-ae7b-801cc8abf07d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/springboot/src/main/java/com/geekuniversity/java/week05/springboot/homework04/SpringBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/springboot/src/main/java/com/geekuniversity/java/week05/springboot/homework06/DatabaseConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/springboot/src/main/java/com/geekuniversity/java/week05/springboot/homework06/HikariTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/springboot/src/main/java/com/geekuniversity/java/week05/springboot/homework06/JdbcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/springboot/src/main/java/com/geekuniversity/java/week05/springboot/homework06/PrepareStatementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/springboot/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_05/springboot/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JAVA-000.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JAVA-000.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/httpclient_4_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/httpcore_4_4_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Week_02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_05/spring/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_05/spring/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA-000/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA-000/com/geekuniversity/java/week01/homework01/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA-000/com/geekuniversity/java/week01/homework01/HelloCompileFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA-000/com/geekuniversity/java/week01/homework02/Hello.xlass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA-000/com/geekuniversity/java/week01/homework02/HelloClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA-000/com/geekuniversity/java/week01/homework03/JVM内存参数关系图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA-000/com/geekuniversity/java/week01/homework03/JVM参数说明" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,187 +54,49 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/Library/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="$USER_HOME$/Library/apache-maven-3.6.3/conf/settings.xml" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1j8yIpZAe8ufcq4NhDFTv6Bgt7D" />
+  <component name="ProjectId" id="1kb9qOIEzGMKY3JdclCi5AGasGS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_05/spring" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Week_02/src/main/java" />
-      <recent name="$PROJECT_DIR$/Week_01/src/main/java" />
-      <recent name="$PROJECT_DIR$/Week_02/com/geekuniversity/java/week02/homework01" />
-      <recent name="$PROJECT_DIR$/Week_01/com/geekuniversity/java/week01/homework03" />
-      <recent name="$PROJECT_DIR$/Week_01/com/geekuniversity/java/week01/homework02" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Week_05/spring" />
-      <recent name="$PROJECT_DIR$/Week_05" />
-      <recent name="$PROJECT_DIR$/Week_04" />
-      <recent name="$PROJECT_DIR$/Week_02" />
-      <recent name="$PROJECT_DIR$/Week_04/com/geekuniversity/java/week04/homework06" />
-    </key>
   </component>
   <component name="RunManager">
-    <configuration name="HelloClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geekuniversity.java.week01.homework02.HelloClassLoader" />
-      <module name="JAVA-000" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekuniversity.java.week01.homework02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.HelloClassLoader" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="09f0e9bf-03d9-4996-bb51-e3df6e442f54" name="Default Changelist" comment="" />
-      <created>1603199935370</created>
+      <changelist id="bec9cbe5-b517-452c-ae7b-801cc8abf07d" name="Default Changelist" comment="" />
+      <created>1605958614309</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603199935370</updated>
-      <workItem from="1603199936456" duration="5543000" />
-      <workItem from="1603281432418" duration="904000" />
-      <workItem from="1603291353011" duration="193000" />
-      <workItem from="1603461334139" duration="1878000" />
-      <workItem from="1603534849942" duration="643000" />
-      <workItem from="1603718380924" duration="829000" />
-      <workItem from="1603817872530" duration="5742000" />
-      <workItem from="1603982664123" duration="254000" />
-      <workItem from="1603982941811" duration="432000" />
-      <workItem from="1604129090605" duration="54000" />
-      <workItem from="1604129160753" duration="133000" />
-      <workItem from="1604129313626" duration="89000" />
-      <workItem from="1604129593533" duration="5000" />
-      <workItem from="1604134157443" duration="153000" />
-      <workItem from="1605056073046" duration="2288000" />
-      <workItem from="1605181206420" duration="2018000" />
-      <workItem from="1605339479860" duration="609000" />
-      <workItem from="1605624237586" duration="1391000" />
-      <workItem from="1605625746525" duration="1330000" />
-      <workItem from="1605707933874" duration="372000" />
-      <workItem from="1605708365654" duration="3119000" />
-      <workItem from="1605934571514" duration="468000" />
-      <workItem from="1605935056120" duration="2118000" />
+      <updated>1605958614309</updated>
+      <workItem from="1605958616354" duration="3041000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="97" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603203736306">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="97" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1603203736306" />
-    <state x="360" y="242" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603948240404">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="360" y="242" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1603948240404" />
-    <state x="486" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1605936520894">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="486" y="94" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1605936520894" />
-    <state x="127" y="365" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605659475228">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="127" y="365" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1605659475228" />
-    <state x="397" y="303" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603890634758">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="397" y="303" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1603890634758" />
-    <state width="1388" height="114" key="GridCell.Tab.0.bottom" timestamp="1605936200258">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="114" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605936200258" />
-    <state width="1388" height="114" key="GridCell.Tab.0.center" timestamp="1605936200257">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="114" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605936200257" />
-    <state width="1388" height="114" key="GridCell.Tab.0.left" timestamp="1605936200256">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="114" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605936200256" />
-    <state width="1388" height="114" key="GridCell.Tab.0.right" timestamp="1605936200258">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="114" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605936200258" />
-    <state x="71" y="0" width="1264" height="900" key="SettingsEditor" timestamp="1605625773914">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="71" y="0" width="1264" height="900" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1605625773914" />
-    <state x="71" y="47" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1605624583835" />
-    <state x="344" y="142" width="751" height="616" key="find.popup" timestamp="1605935523502">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="344" y="142" width="751" height="616" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1605935523502" />
-    <state x="394" y="62" width="838" height="1060" key="search.everywhere.popup" timestamp="1605715401167">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="394" y="62" width="838" height="1060" key="search.everywhere.popup/0.0.1440.900/1440.0.1102.742@0.0.1440.900" timestamp="1605715401167" />
-    <state x="394" y="62" width="838" height="1060" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605339487456" />
-    <state x="602" y="0" width="838" height="1060" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1603538404803" />
   </component>
 </project>
