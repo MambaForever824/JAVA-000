@@ -2,46 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bec9cbe5-b517-452c-ae7b-801cc8abf07d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/springboot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/springboot/src/main/java/com/geekuniversity/java/week05/springboot/homework04/SpringBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/springboot/src/main/java/com/geekuniversity/java/week05/springboot/homework06/DatabaseConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/springboot/src/main/java/com/geekuniversity/java/week05/springboot/homework06/HikariTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/springboot/src/main/java/com/geekuniversity/java/week05/springboot/homework06/JdbcTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/springboot/src/main/java/com/geekuniversity/java/week05/springboot/homework06/PrepareStatementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/springboot/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_05/springboot/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JAVA-000.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JAVA-000.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/httpclient_4_5_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/httpcore_4_4_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_01/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA-000/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA-000/com/geekuniversity/java/week01/homework01/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA-000/com/geekuniversity/java/week01/homework01/HelloCompileFile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA-000/com/geekuniversity/java/week01/homework02/Hello.xlass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA-000/com/geekuniversity/java/week01/homework02/HelloClassLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA-000/com/geekuniversity/java/week01/homework03/JVM内存参数关系图.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA-000/com/geekuniversity/java/week01/homework03/JVM参数说明" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_06/emall.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Week_06/emall.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,14 +34,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.geekuniversity.java.week05.springboot.homework06" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,11 +62,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605958614309</updated>
-      <workItem from="1605958616354" duration="3041000" />
+      <workItem from="1605958616354" duration="4280000" />
+      <workItem from="1606309878742" duration="3805000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="261" key="#SQL_Dialects" timestamp="1606310030560">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="0" y="261" key="#SQL_Dialects/0.25.1440.875@0.25.1440.875" timestamp="1606310030560" />
   </component>
 </project>
