@@ -1,6 +1,7 @@
-package com.geekuniversity.java.week05.springboot.homework06;
+package com.geekuniversity.java.week05.test.springboot.homework06;
 
-import com.geekuniversity.java.week05.homework02.config.Student;
+import com.geekuniversity.java.week05.springboot.homework06.DatabaseConnectionUtil;
+import com.geekuniversity.java.week05.springboot.homework06.Student;
 
 import java.sql.*;
 
